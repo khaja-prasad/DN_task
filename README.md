@@ -29,3 +29,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Screenshots of Tabs
+
+### Presentation
+
+![alt text](Screenshot_1_Presentation.png)
+
+### Q&A
+
+![alt text](Screenshot_2_Q&A.png)
+
+### Corporate Participants
+
+![alt text](Screenshot_3_Executives.png)
+
+### Conference Call Participants
+
+![alt text](Screenshot_4_Analysts.png)
