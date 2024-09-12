@@ -31,9 +31,9 @@ const Question = ({ question }) => {
             </p>
           </div>
         </div>
-        <p style={{ textAlign: "justify", marginTop: "12px" }}>
-          {question.transcript_data}
-        </p>
+        {question.transcript_data.map((para) => (
+          <p style={{ textAlign: "justify", marginTop: "12px" }}>{para}</p>
+        ))}
       </div>
     </div>
   );

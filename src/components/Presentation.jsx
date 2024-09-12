@@ -26,7 +26,9 @@ const Presentation = ({ presentation }) => {
             <p>{`${presentation.participant_designation} | ${presentation.participant_company}`}</p>
           </div>
         </div>
-        <p style={{ textAlign: "justify" }}>{presentation.transcript_data}</p>
+        {presentation.transcript_data.map((para) => (
+          <p style={{ textAlign: "justify" }}>{para}</p>
+        ))}
       </div>
     </div>
   );
