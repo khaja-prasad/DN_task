@@ -32,7 +32,7 @@ const Question = ({ question }) => {
           </div>
         </div>
         <p style={{ textAlign: "justify", marginTop: "12px" }}>
-          {question.transcript_data[0]}
+          {question.transcript_data}
         </p>
       </div>
     </div>

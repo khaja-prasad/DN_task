@@ -26,9 +26,7 @@ const Presentation = ({ presentation }) => {
             <p>{`${presentation.participant_designation} | ${presentation.participant_company}`}</p>
           </div>
         </div>
-        <p style={{ textAlign: "justify" }}>
-          {presentation.transcript_data[0]}
-        </p>
+        <p style={{ textAlign: "justify" }}>{presentation.transcript_data}</p>
       </div>
     </div>
   );
